@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #154734; /* Evergreen State College Green */
+    color: #ffffff; /* White text */
+}
+
+h1 {
+    color: #c1b67e; /* Evergreen State College Gold */
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #c1b67e; /* Evergreen State College Gold */
+    color: #154734; /* Evergreen State College Green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
